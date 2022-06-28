@@ -36,7 +36,7 @@
       :x="task.x"
       :y="task.y"
       :width="task.width"
-      :height="task.height"
+      :height="20"
       :viewBox="`0 0 ${task.width} ${task.height}`"
       @click="emitEvent('click', $event)"
       @mouseenter="emitEvent('mouseenter', $event)"
